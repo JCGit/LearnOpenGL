@@ -1,4 +1,0 @@
-
-
-
-jacey first learnOpengl repository
