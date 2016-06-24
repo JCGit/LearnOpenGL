@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FirstProj", "FirstProj\FirstProj.vcxproj", "{7E7535BE-44BA-4CB5-B389-3F56617A1C9D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opengl", "opengl", "{C009D0BA-61B4-46CA-94C5-016BD3CD9339}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw3", "3rd\glfw3.vcxproj", "{1518040A-3EEB-4551-B90E-2B65B879A965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "learnOpengl", "learnOpengl", "{BFF17864-2481-4337-B883-5EAAABB1A5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7D44B5D5-9665-4155-8FD0-C074B92548D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnvSetup", "LearOpengl\EnvSetup.vcxproj", "{D4BD0564-7E01-41E9-9CCC-59346CEF19B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +19,22 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E7535BE-44BA-4CB5-B389-3F56617A1C9D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{7E7535BE-44BA-4CB5-B389-3F56617A1C9D}.Debug|Win32.Build.0 = Debug|Win32
-		{7E7535BE-44BA-4CB5-B389-3F56617A1C9D}.Release|Win32.ActiveCfg = Release|Win32
-		{7E7535BE-44BA-4CB5-B389-3F56617A1C9D}.Release|Win32.Build.0 = Release|Win32
+		{1518040A-3EEB-4551-B90E-2B65B879A965}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1518040A-3EEB-4551-B90E-2B65B879A965}.Debug|Win32.Build.0 = Debug|Win32
+		{1518040A-3EEB-4551-B90E-2B65B879A965}.Release|Win32.ActiveCfg = Release|Win32
+		{1518040A-3EEB-4551-B90E-2B65B879A965}.Release|Win32.Build.0 = Release|Win32
+		{D4BD0564-7E01-41E9-9CCC-59346CEF19B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4BD0564-7E01-41E9-9CCC-59346CEF19B0}.Debug|Win32.Build.0 = Debug|Win32
+		{D4BD0564-7E01-41E9-9CCC-59346CEF19B0}.Release|Win32.ActiveCfg = Release|Win32
+		{D4BD0564-7E01-41E9-9CCC-59346CEF19B0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1518040A-3EEB-4551-B90E-2B65B879A965} = {C009D0BA-61B4-46CA-94C5-016BD3CD9339}
+		{BFF17864-2481-4337-B883-5EAAABB1A5CB} = {C009D0BA-61B4-46CA-94C5-016BD3CD9339}
+		{7D44B5D5-9665-4155-8FD0-C074B92548D8} = {C009D0BA-61B4-46CA-94C5-016BD3CD9339}
+		{D4BD0564-7E01-41E9-9CCC-59346CEF19B0} = {BFF17864-2481-4337-B883-5EAAABB1A5CB}
 	EndGlobalSection
 EndGlobal
